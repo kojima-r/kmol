@@ -44,7 +44,7 @@ graphormer = Extension("algos", ["src/kmol/vendor/graphormer/algos.pyx"], includ
 graphormer.define_macros += [("NPY_NO_DEPRECATED_API", "NPY_1_7_API_VERSION")]
 
 modules = []
-modules += [openfold]
-modules += cythonize([graphormer], compiler_directives={'language_level' : "3"})
+#modules += [openfold]
+#modules += cythonize([graphormer], compiler_directives={'language_level' : "3"})
 
 setup(ext_modules=modules, cmdclass={"build_ext": BuildExtension})
