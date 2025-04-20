@@ -10,7 +10,6 @@ from pathlib import Path
 from typing import Literal, Optional, List, Dict, Any, DefaultDict
 
 import torch
-from openbabel import pybel
 from mila.factories import AbstractConfiguration
 
 from kmol.core.helpers import SuperFactory
