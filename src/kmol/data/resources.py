@@ -15,7 +15,6 @@ from torch_geometric.loader.dataloader import Collater as TorchGeometricCollater
 from kmol.vendor.graphormer import collater
 import prody
 import pandas as pd
-from openbabel import openbabel
 
 from kmol.vendor.riken.intDesc.interaction_descriptor import calculate
 
